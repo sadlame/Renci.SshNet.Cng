@@ -1,0 +1,3 @@
+[submodule "Renci.SshNet"]
+	path = Renci.SshNet
+	url = https://github.com/sadlame/SSH.NET

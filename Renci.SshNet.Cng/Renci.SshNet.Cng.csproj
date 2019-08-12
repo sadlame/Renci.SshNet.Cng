@@ -46,5 +46,11 @@
     <Compile Include="PrivateKeyCng.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Renci.SshNet\src\Renci.SshNet.NET35\Renci.SshNet.NET35.csproj">
+      <Project>{dd1c552f-7f48-4269-abb3-2e4c89b7e43a}</Project>
+      <Name>Renci.SshNet.NET35</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

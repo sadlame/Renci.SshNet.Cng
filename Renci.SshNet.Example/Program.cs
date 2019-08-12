@@ -134,7 +134,8 @@ namespace Sample1
                     "Create a new key in a Key Storage Provider",
                     "Export a key in a Key Storage Provider",
                     "Delete a key in a Key Storage Provider",
-                    "Attempt an SSH Login to a remote host"
+                    "Attempt an SSH Login to a remote host",
+                    "Quit application"
                 }))
                 {
                 case 0:
@@ -155,6 +156,8 @@ namespace Sample1
                 case 5:
                     Login();
                     break;
+                case 6:
+                    return;
                 }
             }
         }

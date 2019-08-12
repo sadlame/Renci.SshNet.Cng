@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renci.SshNet.Cng", "Renci.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renci.SshNet.Example", "Renci.SshNet.Example\Renci.SshNet.Example.csproj", "{88FEC9CF-8150-42AD-B4CB-4C2ABE8E9B22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renci.SshNet.NET35", "Renci.SshNet\src\Renci.SshNet.NET35\Renci.SshNet.NET35.csproj", "{DD1C552F-7F48-4269-ABB3-2E4C89B7E43A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{88FEC9CF-8150-42AD-B4CB-4C2ABE8E9B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88FEC9CF-8150-42AD-B4CB-4C2ABE8E9B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88FEC9CF-8150-42AD-B4CB-4C2ABE8E9B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1C552F-7F48-4269-ABB3-2E4C89B7E43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1C552F-7F48-4269-ABB3-2E4C89B7E43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1C552F-7F48-4269-ABB3-2E4C89B7E43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1C552F-7F48-4269-ABB3-2E4C89B7E43A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
