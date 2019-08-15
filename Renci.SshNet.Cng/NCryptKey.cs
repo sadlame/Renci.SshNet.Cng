@@ -10,6 +10,14 @@ namespace Renci.SshNet.Cng
     {
         private IntPtr hKey = IntPtr.Zero;
 
+        public String Name
+        {
+            get
+            {
+                return NCryptUtils.GetPropertyString(hKey, "Name");
+            }
+        }
+
         public NCryptKey(IntPtr _hKey)
         {
             hKey = _hKey;

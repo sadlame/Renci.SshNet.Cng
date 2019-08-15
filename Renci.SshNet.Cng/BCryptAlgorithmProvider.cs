@@ -54,7 +54,7 @@ namespace Renci.SshNet.Cng
             Dispose();
         }
 
-        #region PInvoke declarations
+        #region P/Invoke declarations
         private const UInt32 ERROR_SUCCESS = 0;
 
         [DllImport("Bcrypt.dll")]

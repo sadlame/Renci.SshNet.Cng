@@ -43,6 +43,7 @@
     <Compile Include="CngHostAlgorithm.cs" />
     <Compile Include="NCryptKey.cs" />
     <Compile Include="NCryptStorageProvider.cs" />
+    <Compile Include="NCryptUtils.cs" />
     <Compile Include="PrivateKeyCng.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

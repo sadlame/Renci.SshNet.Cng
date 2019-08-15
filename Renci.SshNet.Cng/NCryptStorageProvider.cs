@@ -9,6 +9,14 @@ namespace Renci.SshNet.Cng
     {
         private IntPtr hProvider = IntPtr.Zero;
 
+        public String Name
+        {
+            get
+            {
+                return NCryptUtils.GetPropertyString(hProvider, "Name");
+            }
+        }
+
         public static String[] EnumProviders()
         {
             UInt32 dwProviderCount = 0;
@@ -176,17 +184,6 @@ namespace Renci.SshNet.Cng
         (
             ref IntPtr phProvider,
             [MarshalAs(UnmanagedType.LPWStr)] String pszProviderName,
-            UInt32 dwFlags
-        );
-
-        [DllImport("Ncrypt.dll")]
-        private extern static UInt32 NCryptGetProperty
-        (
-            IntPtr hProvider,
-            [MarshalAs(UnmanagedType.LPWStr)] String pszProperty,
-            Byte[] pbOutput,
-            UInt32 cbOutput,
-            ref UInt32 pcbResult,
             UInt32 dwFlags
         );
 
